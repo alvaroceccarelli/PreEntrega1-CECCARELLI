@@ -21,6 +21,8 @@ switch (compra){
                 case"seis cuotas":
                 alert("gracias,serian 6 cuotas de $2875 cada una")
                 break
+                default:
+                    alert("por favor seleccione el metodo de pago")
         }
         break
         case "creatina":
@@ -39,6 +41,8 @@ switch (compra){
                 case"seis cuotas":
                 alert("gracias,serian 6 cuotas de $2300 cada una")
                 break
+                default:
+                    alert("por favor seleccione el metodo de pago")
         }
             break
             case "pre entreno":
@@ -47,6 +51,7 @@ switch (compra){
                 break
                 default:
                     console.log(`ningun producto seleccionado`)
+                    alert("no ha seleccionado ningun producto")
                     break
     }
 
