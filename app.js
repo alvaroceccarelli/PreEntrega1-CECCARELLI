@@ -1,3 +1,16 @@
+function saludar(){
+    alert("bienvenido a suplementos store")
+}
+function despedir(){
+    alert("gracias por su visita vuelva pronto")
+}
+
+let x = 1;
+while (x < 2) {
+    console.log("pedido numero" + x)
+    x = x + 1;
+}
+saludar()
 let compra = prompt(`¿que desea comprar de nuestra web?:
 *whey protein
 *creatina
@@ -54,4 +67,4 @@ switch (compra){
                     alert("no ha seleccionado ningun producto")
                     break
     }
-
+despedir()
